@@ -15,6 +15,7 @@ load_dotenv()
 def init_browser():
     chrome_options = Options()
     chrome_options.add_argument("--disable-notifications")
+    chrome_options.add_argument("--headless=new")
     browser = webdriver.Chrome(options=chrome_options)
 
     wait = WebDriverWait(browser, 20)
