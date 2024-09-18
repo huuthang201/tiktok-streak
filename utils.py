@@ -95,7 +95,7 @@ def auto_send_message(browser, wait):
             print("Sending message to", username)
             message_input = wait.until(EC.presence_of_element_located((By.CLASS_NAME, "public-DraftStyleDefault-block")))
             message_input.click()
-            message_input.send_keys("auto send message")
+            message_input.send_keys(os.getenv('MESSAGE'))
             message_input.send_keys(Keys.RETURN)
 
         except:

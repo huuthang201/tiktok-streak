@@ -8,7 +8,13 @@ Create a `.env` file in the root directory and declare the following variables:
 CAPTCHA_API_KEY="api_key_ocacaptcha"
 TIKTOK_USERNAME="username"
 TIKTOK_PASSWORD="password"
+MESSAGE="auto send message"
 ```
+
+
+> **Note:** Instead of a username, you can use an email for the `TIKTOK_USERNAME` variable.
+
+> **Note:** The `MESSAGE` variable is the message that will be sent to all friends.
 
 
 ## Get All Friends
