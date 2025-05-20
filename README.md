@@ -38,3 +38,7 @@ To send a message to all friends listed in the `friends.csv` file, run the `main
 ```sh
 python main.py
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huuthang201/tiktok-streak&type=Date)](https://www.star-history.com/#huuthang201/tiktok-streak&Date)
